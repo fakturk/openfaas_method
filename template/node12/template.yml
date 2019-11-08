@@ -1,2 +1,0 @@
-language: node12
-fprocess: node index.js
