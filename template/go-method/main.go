@@ -13,7 +13,7 @@ import (
 )
 
 func main() {
-	parent:=function.Parent{"Fatih"}
+	parent := function.Parent{Name: "Fatih"}
 	input, err := ioutil.ReadAll(os.Stdin)
 	if err != nil {
 		log.Fatalf("Unable to read standard input: %s", err.Error())
