@@ -11,8 +11,8 @@ We can create a new function by the following code
 
 Now we have a handler.go file in the 'function-name' folder  
 
-<code>
-package function
+
+```package function
 
 import (
 	"fmt"
@@ -27,8 +27,8 @@ type Parent struct {
 func (p *Parent) Handle(req []byte) string {
 	return fmt.Sprintf("Hello, Go. You said: %s and name of the parent is :%s", string(req), p.Name)
 }
+```
 
-</code>
 
 Now we can build, push and deploy our code
 
